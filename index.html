@@ -47,8 +47,7 @@
 <body class="leading-normal tracking-normal text-gray-900" style="font-family: 'Source Sans Pro', sans-serif;">
 
 
-
-<div class="h-screen pb-14 bg-right bg-cover" style="background-image:url('imgs/bg.svg');">
+<div class="min-h-screen pb-14 bg-right bg-cover" style="background-image:url('imgs/bg.svg');">
 	<!--Nav-->
 	<div class="w-full container mx-auto p-6">
 			
@@ -65,7 +64,7 @@
 					<svg class="fill-current h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"></path></svg>
 				</a> -->
 				<a href="privacy.html" class="inline-block text-blue-300 font-bold no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 ">
-					Privacy
+					Privacy Policy
 				</a> 
 			</div>
 			
@@ -97,14 +96,63 @@
 			<img class="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="imgs/devices.svg">
 		</div>
 		
-		<!--Footer-->
-		<div class="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
-			<a class="text-gray-500 no-underline hover:no-underline" href="#">&copy; App <span id="year"></span></a>
-		</div>
-		
 	</div>
-	
 
+</div>
+
+<div>
+	<!-- component -->
+	<section class="mx-auto max-w-7xl py-12">
+		<div class="flex flex-col">
+			<div class="flex flex-col md:flex-row justify-center items-center">
+				<div class="transition-all ease-in-out duration-1000 flex flex-col justify-center">
+					<div slot="middle-left" class="max-w-2xl">
+						<div class="flex flex-col md:flex-row">
+							<div class="md:w-2/3 text-green-400 p-5 flex justify-center items-center md:h-48 text-3xl font-black uppercase text-center md:text-left">Simplify files sharing</div>
+							<div class="md:w-1/3 p-5 flex justify-center items-center text-center md:text-left">Ultilize Android clipboard to make files sharing easier</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-col md:flex-row justify-center items-center">
+				<div class="transition-all ease-in-out duration-1000 flex flex-col justify-center mr-0 md:mr-2">
+					<div slot="bottom-left" class="max-w-xs">
+						<div class="p-5 shadow-md m-2 mt-4"><img class="object-scale-down h-30" src="imgs\tutorials\basic\step1.png" alt="step1">
+							<div class="text-xs font-bold uppercase text-indigo-300 mt-1 mb-2">Step 1</div>
+							<div class="text-xl font-bold mb-2">Copy</div>
+							<div class="">Use share menu to copy your image to clipboard</div>
+						</div>
+					</div>
+				</div>
+				<div class="transition-all ease-in-out duration-1000 flex flex-col justify-center mx-0 md:mx-4">
+					<div slot="bottom-center" class="max-w-xs">
+						<div class="p-5 shadow-md m-2 mt-4"><img class="object-scale-down h-30" src="imgs\tutorials\basic\step2.png" alt="step2">
+							<div class="text-xs font-bold uppercase text-indigo-300 mt-1 mb-2">Step 2</div>
+							<div class="text-xl font-bold mb-2">Paste</div>
+							<div class="">Paste the image with Google Keyboard(Gboard) clipboard feature</div>
+						</div>
+					</div>
+				</div>
+				<div class="transition-all ease-in-out duration-1000 flex flex-col justify-center ml-0 md:ml-2">
+					<div slot="bottom-right" class="max-w-xs">
+						<div class="p-5 shadow-md m-2 mt-4"><img class="object-scale-down h-30" src="imgs\tutorials\basic\step3.png" alt="step3">
+							<div class="text-xs font-bold uppercase text-indigo-300 mt-1 mb-2">Step 3</div>
+							<div class="text-xl font-bold mb-2">Don't</div>
+							<div class="">Don't use the default paste menu, it will not work for image</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+
+<!--Footer-->
+<div class="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+	<div class="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
+		<a class="text-gray-500 no-underline hover:no-underline" href="#">&copy; App <span id="year"></span></a>
+	</div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
